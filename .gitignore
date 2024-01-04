@@ -1,0 +1,63 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Executables
+*.out
+
+# Compiled Dynamic Libraries
+*.dll
+*.dylib
+
+# CMake build directory
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Visual Studio Code files
+.vscode/
+
+# Sublime Text files
+*.sublime-workspace
+*.sublime-project
+
+# Xcode files
+*.xcworkspace/
+*.xcodeproj/
+
+# Eclipse files
+.project
+.cproject
+
+# Temporary files
+*~
+*.swp
+
+# User-specific files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+bin/
+lib/
+
+# Ignore input and output files
+*.in
+*.out
+
+# Ignore backup and temporary files
+*~
+*.bak
+*.tmp
+*.log
+
+# Ignore user-specific files
+.idea/
+*.suo
+*.user
+*.sdf
+
+# Ignore generated files
+Makefile
